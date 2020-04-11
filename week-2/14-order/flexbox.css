@@ -5,39 +5,29 @@
 /* Add your own CSS code below */
 
 /* countries--first*/
-.countries--first .country--brazil {
+.countries--first :first-child {
   order: 5;
 }
-.countries--first .country--croatia {
-  order: 1;
-}
-.countries--first .country--laos {
-  order: 3;
-}
-.countries--first .country--uganda {
-  order: 5;
-}
-.countries--first .country--ethiopia {
-  order: 2;
-}
+
 /* countries--second*/
-.countries--second .country--brazil {
+.countries--second :first-child {
   order: 4;
 }
-.countries--second .country--croatia {
+.countries--second :nth-child(2) {
   order: 1;
 }
-.countries--second .country--laos {
+.countries--second :nth-child(3) {
   order: 3;
 }
-.countries--second .country--uganda {
+.countries--second :nth-child(4) {
+  order: 4;
+}
+.countries--second :last-child {
   order: 5;
 }
-.countries--second .country--ethiopia {
-  order: 2;
-}
-/* countries--thirdd*/
-.countries--third .country--brazil {
+
+/* countries--third*/
+.countries--third :first-child {
   order: 5;
 }
 .countries--third .country--croatia {
